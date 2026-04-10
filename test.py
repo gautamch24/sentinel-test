@@ -1,7 +1,7 @@
 import os
 
   def get_user(user_id):
-      db_password = "supersecret123"
+      db_password = "supersecret322332"
       query = "SELECT * FROM users WHERE id = " + user_id
       result = db.execute(query)
       return result
